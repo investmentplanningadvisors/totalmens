@@ -1,0 +1,324 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for the Avada
+Author: Your name here
+Template: Avada
+*/
+
+.header-v4 #small-nav, .header-v5 #small-nav {
+display:none;
+}
+
+h1, h2, h3, h4 {
+font-weight:bold !important;
+}
+
+.marginTop20 {
+margin-top:20px !important;	
+}
+
+.marginTop40 {
+margin-top:40px !important;	
+}
+
+.book_button {
+background:#f7ff16 !important;
+color:#000 !important;
+text-transform:none !important;
+border-color:#000 !important;
+padding:16px 24px;
+font-size:24px!important;
+}
+
+.header-social {
+display:none;
+}
+
+.header-relative {
+	position:relative !important;
+}
+
+#header {
+border-bottom-color:#fff !important;
+padding-top: 0px!important;
+}
+
+
+.header-v4 #header .tagline, #side-header .tagline {
+  font-size: 30px !important;
+  color:#000 !important;
+  padding:50px 0 0 0;
+  
+}
+
+.tagline {
+	color:#000;
+}
+
+.tagline a {
+	text-decoration:none !important;
+}
+
+#header-sticky .logo, #header .logo{
+	margin-top:20px;
+}
+
+.logo-container {
+	padding-top:15px;
+}
+
+
+.quick-navi {
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:1000;
+	width:404px; 
+	height:48px;
+}
+
+.quick-navi-2 {
+width: 550px;
+z-index: 1000;
+margin-top: 8px;
+
+}
+
+.main-nav-search {
+display:none;	
+}
+
+.header-schedule {
+	float:left;
+	display:block;
+	width:157px;
+	height:48px;
+}
+
+.header-find {
+	float:left;
+	display:bloack;
+	width:120px;
+	height:48px;
+}
+
+.header-signin{
+	float:left;
+	display:bloack;
+	width:127px;
+	height:48px;
+}
+
+
+
+.shadow-left, .shadow-right {
+display:none;
+}
+
+#main {
+  padding-bottom: 0!important;
+}
+
+.table-1 {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.table-1 table {
+	 text-align: left;
+}
+
+.table-1 table th, .tkt-slctr-tbl-wrap-dv table th, .table-1 tr:nth-child(2n), .tkt-slctr-tbl-wrap-dv tr:nth-child(2n), .table-1 tr:nth-child(n) {
+	background-color:#f5fafe!important;
+}
+
+.table-1 table, .table-1 table th, .table-1 tr td {
+	border:0px solid #f5fafe !important;
+}
+
+.table-1 tr:nth-child(n) {
+	border-bottom:2px dotted #dcecf7 !important;
+}
+.table-1 .fa {
+color:#5fba1c !important;
+font-size:21px;
+}
+
+.fusion-testimonials.classic .company-name {
+	float:right;
+	color:#0071bb;
+	margin: 10px 15px 5px 0;
+}
+
+.fusion-testimonials {
+  border: 3px solid #fff;
+}
+
+.author {
+  background: #fff none repeat scroll 0 0;
+  color: #ffffff;
+  display: block;
+  overflow: hidden;
+  text-align: right;
+}
+
+.fusion-testimonials.classic blockquote {
+	min-height:135px;
+	background:#0071bb;
+}
+
+.author::after {
+  border-top-color:#FFF !important;
+  border-width: 0 !important;
+}
+
+.fusion-testimonials.classic .testimonial-image {
+ max-width: 83px !important;
+}
+
+.fusion-testimonials.classic .testimonial-thumbnail {
+	float:left;
+	margin: 0 0 10px 5px;
+}
+
+.bo-border {
+	border:none !important;
+}
+
+.insurance-text {
+ font-size:14px;
+ font-style:italic;	
+ max-width:870px;
+ margin:25px auto !important;
+}
+
+.promise-text {
+	font-size:21px;
+	font-weight:300;
+	line-height:36px;
+}
+
+#text-4 {
+  width: 25%;
+  min-width: 266px;
+  float: right;
+}
+
+.big-text {
+	font-size:27px;
+	color:#fff !important;
+	text-decoration:none;
+}
+
+.fusion-social-networks .fusion-social-network-icon {
+	font-size:21px;
+	padding: 18px;
+	background:#373435;
+	border-radius:35px;
+	margin-left:10px !important;
+}
+
+.fusion-social-links-footer {
+	text-align:left !important;
+}
+
+.copyright {
+	text-align:right !important;
+}
+
+.home-video-section {
+	background-size:cover;
+	padding: 200px 0;
+}
+
+/*=============================== RESPONSIVE STYLE ===============================*/
+@media only screen and (max-width : 1024px) {
+
+.quick-navi	 {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+}
+
+@media only screen and (max-width : 420px) {
+.quick-navi {
+  height: 48px;
+  left: 50%;
+  margin-left: -202px;
+  position: absolute;
+  top: 0;
+  width: 404px;
+  z-index: 1000;
+}
+
+.logo-container {
+  padding-top: 75px;
+}
+
+.tp-caption .fusion-button  {
+
+  padding: 15px 14px;
+}
+
+}
+
+@media only screen and (max-width : 380px) {
+
+.quick-navi {
+	height:41px;
+	position:absolute;
+	left: 50%;
+     margin-left: -171px;
+	width: 342px;
+}
+
+
+.header-schedule {
+	width:133px;
+	height:41px;
+}
+
+.header-find {
+	width:102px;
+	height:41px;
+}
+
+.header-signin{
+	width:107px;
+	height:41px;
+}
+
+.home-video-section {
+	background-size:contain !important;
+	padding: 50px 0;
+}
+
+
+}
+
+@media only screen and (max-width : 700px) {
+
+.tp-caption .fusion-button {
+	padding: 15px 18px !important;
+}
+
+.home-video-section {
+	background-size:contain !important;
+	padding: 100px 0;
+}
+
+#footer {
+  padding-bottom: 53px;
+  padding-top: 18px;
+}
+
+ .copyright {
+  float: none;
+  padding: 76px 0 15px;
+  text-align: center !important;
+}
+
+}
